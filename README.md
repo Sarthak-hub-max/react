@@ -1,16 +1,52 @@
-# React + Vite
+🧠 Project Title: Typing Test App
+📝 Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Typing Test App is a responsive web application built using React and JavaScript that helps users measure their typing speed and accuracy in real time. The app provides a random text prompt for users to type within a fixed time limit and calculates Words Per Minute (WPM) and Accuracy Percentage instantly after the test ends.
 
-Currently, two official plugins are available:
+It offers a smooth and minimal user interface powered by Bootstrap, with live stats display, automatic timer activation, and a restart option for retaking the test.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚙️ Features
 
-## React Compiler
+🕒 Auto-Start Timer: The countdown starts automatically when the user begins typing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📈 Real-Time Statistics: Calculates and displays Words Per Minute (WPM) and accuracy after completion.
 
-## Expanding the ESLint configuration
+🔁 Restart Functionality: Allows users to reset the test anytime with a single click.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Clean Bootstrap UI: Modern, responsive design with light animations for a pleasant typing experience.
+
+📱 Responsive Layout: Works seamlessly across desktop and mobile devices.
+
+🧩 Tech Stack
+Category	Technology
+Frontend Framework	React.js
+Programming Language	JavaScript (ES6)
+UI Framework	Bootstrap 5
+Styling	Custom CSS (app.css)
+State Management	React Hooks (useState, useEffect)
+Build Tool	Vite
+💡 How It Works
+
+The app displays a random text prompt.
+
+When the user starts typing, the timer begins counting down from 60 seconds.
+
+The app tracks each character typed and calculates:
+
+WPM: Based on total words typed and time elapsed.
+
+Accuracy: Based on correct vs. incorrect characters.
+
+Once time runs out, results are displayed with an option to restart.
+
+🚀 Future Enhancements
+
+Add dark/light mode toggle.
+
+Include difficulty levels (Easy / Medium / Hard).
+
+Store best scores using localStorage.
+
+Add real-time character highlighting (correct/incorrect).
+
+Display a progress bar for remaining time.
